@@ -15,7 +15,6 @@ function Login() {
     const onNext = ()=>{
       setStep(step+1)
     }
-
   return (
     <div>
      <Step onNext={onNext}  />
